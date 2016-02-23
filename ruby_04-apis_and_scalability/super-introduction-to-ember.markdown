@@ -157,7 +157,7 @@ export default DS.RESTAdapter.extend({
 });
 ```
 
-As luck would have it, `DS.RESTAdapter` is exactly what we need for working with our Rails API. So, we're good to go.
+As luck would have it, `DS.RESTAdapter` is exactly what we need for working with our Rails API. So, we're good to go. (If you're using a newer version of ember.js -- you might end up with a default adapter of `DS.JSONAPIAdapter`.  If that's the case be sure to change it to `DS.RESTAdapter`, or you may end up with errors later in this tutorial.
 
 ### Firing Up Our Server
 
